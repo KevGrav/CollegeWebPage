@@ -3,7 +3,7 @@
 }
 
 header{
-    background-color: blue;
+    background-color: rgb(60, 60, 200);
     font-family: 'Lora', serif;
     border: 2px solid black;
 }
@@ -53,4 +53,5 @@ footer{
         display: grid;
         grid-gap: 3px;
         grid-template-columns: 1fr 1fr 1fr;
+        max-width: 800px;
      }
