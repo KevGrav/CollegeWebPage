@@ -44,6 +44,13 @@ footer{
         text-decoration: underline;
      }
 
+button:hover{
+    background-color: #e3ed21;
+    color: #ec0c31;
+    cursor: pointer;
+    text-decoration: none;
+}
+
      img{
         width: 120%;
         height: 150px;
