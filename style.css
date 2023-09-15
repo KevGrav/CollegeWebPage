@@ -7,6 +7,7 @@ header{
     font-family: 'Lora', serif;
     border: 2px solid black;
     letter-spacing: 3px;
+    font-size: 20px;
 }
 
 body{
@@ -23,52 +24,86 @@ h1, h3, h5{
 
 p{
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: 10px;
 }
 
-.grid-page{display: grid;
-    grid-gap: 15px;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: (repeat 30px);
-    list-style-type: none; 
+.container{background-color: rgb(100, 13, 240);
+    height: auto;
+    width: auto;
+    padding: 0.3em;
+    /* margin: 20vh auto 0; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    /* flex-flow: column-wrap; */
+    justify-content:flex-start;
+    /* align-items:baseline; */
+    align-content: top;
+}
+
+
+.item1{
+    background-color: lightblue;
+    margin: 0.3em;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: top;
+}
+
+.item2, .item3{
+    background-color: lightblue;
+    margin: 0.3em;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: top;
 }
 
 a{
     text-decoration: none;
-}
+    }
+    
+li{
+    list-style-type: square;
+    }
     
 footer{
     text-align: center;
- }
+    }
 
 button{
-        min-width: 80px;
-        height: 40px;
-        border-radius: 10%;
-        text-decoration: underline;
-     }
+    min-width: 80px;
+    height: 40px;
+    border-radius: 10%;
+    text-decoration: underline;
+    }
 
 button:hover{
     background-color: #e3ed21;
     color: #ec0c31;
     cursor: pointer;
     text-decoration: none;
-}
-
-img{
-    width: 120%;
-    height: 150px;
-     }
-
-.container{
-    display: grid;
-    grid-gap: 3px;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width: 800px;
-     }
-
+    }
+   
 .extlink{
     width: auto;
     height: 10px;
-     }
+    }
+
+    img{
+        width: 100%;
+        height: 200px;
+         }
