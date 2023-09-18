@@ -1,8 +1,8 @@
-*{
+* {
     margin: 1;
 }
 
-header{
+header {
     background-color: rgb(60, 60, 200);
     font-family: 'Lora', serif;
     border: 2px solid black;
@@ -10,100 +10,90 @@ header{
     font-size: 20px;
 }
 
-body{
+body {
     background-color: rgb(0, 179, 255);
     font-family: 'Lora', serif;
     line-height: normal;
 }   
 
-h1, h3, h5{
+h1, h3, h5 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     letter-spacing: 3px;
     }
 
-p{
+p {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     font-size: 10px;
 }
 
-.container{background-color: rgb(100, 13, 240);
+.container {background-color: rgb(100, 13, 240);
     height: auto;
     width: auto;
-    padding: 0.3em;
-    /* margin: 20vh auto 0; */
-
     display: flex;
     flex-direction: row;
-    flex-wrap:nowrap;
-    /* flex-flow: column-wrap; */
-    justify-content:flex-start;
-    /* align-items:baseline; */
-    align-content: top;
-}
+    }
 
 
-.item1{
-    background-color: lightblue;
-    margin: 0.4em;
+.item1 {
+    background-color: rgb(196, 218, 226);
+    margin: 0.3em;
     width: 50%;
+    padding: 0.5em;
     display: flex;
     flex-direction: column;
     font-size: 15px;
-    display: flex;
-    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     align-content: top;
 }
 
-.item2, .item3{
-    background-color: lightblue;
-    margin: 0.4em;
+.item2, .item3 {
+    background-color: rgb(196, 218, 226);
+    margin: 0.3em;
     width: 25%;
     display: flex;
     flex-direction: column;
     font-size: 15px;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
     align-content: top;
 }
 
-a{
+a {
     text-decoration: none;
     }
     
-li{
+li {
     list-style-type: square;
     }
     
-footer{
+footer {
     text-align: center;
     }
 
-button{
+button {
     min-width: 80px;
     height: 40px;
     border-radius: 10%;
     text-decoration: underline;
     }
 
-button:hover{
+button:hover {
     background-color: #e3ed21;
     color: #ec0c31;
     cursor: pointer;
     text-decoration: none;
     }
    
-.extlink{
+.extlink {
     width: auto;
     height: 12px;}
 
-img{
+img {
     max-width: 250px;
     height: 200px;
-    margin: 1em;    
-    }
+    margin: 1em;
+    align-items: center;
+}
